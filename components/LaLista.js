@@ -17,9 +17,12 @@ function Item({title, image, sale, price, onPress}) {
         <View style={styles.containerText}>
           <Text style={styles.titulo}>{title}</Text>
           <View style={styles.containerPrecios}>
-            <Text style={styles.precios}>
-              Precio normal:{' '}
-              <Text style={{textDecorationLine: 'line-through'}}>{price}</Text>
+            <Text
+              style={
+                (styles.precios,
+                {textDecorationLine: 'line-through', paddingRight: 9})
+              }>
+              Precio normal: {price}
             </Text>
             <Text style={styles.precios}>Precio de oferta: {sale} $</Text>
           </View>
