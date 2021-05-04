@@ -99,8 +99,8 @@ const styles = StyleSheet.create({
     fontSize: 15,
   },
   image: {
-    width: 300,
-    height: 300,
+    width: 100,
+    height: 100,
     overflow: 'hidden',
     borderRadius: 300 / 2,
   },

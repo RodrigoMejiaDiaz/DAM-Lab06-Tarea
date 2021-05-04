@@ -22,9 +22,9 @@ function Item({title, image, sale, price, onPress}) {
                 (styles.precios,
                 {textDecorationLine: 'line-through', paddingRight: 9})
               }>
-              Precio normal: {price}
+              Normal: {price}
             </Text>
-            <Text style={styles.precios}>Precio de oferta: {sale} $</Text>
+            <Text style={styles.precios}>Oferta: {sale} $</Text>
           </View>
         </View>
       </View>
@@ -98,8 +98,7 @@ const styles = StyleSheet.create({
   },
   containerText: {
     flex: 1,
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     backgroundColor: 'white',
   },
   image: {
