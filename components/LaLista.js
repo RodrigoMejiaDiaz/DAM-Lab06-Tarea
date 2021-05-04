@@ -107,14 +107,14 @@ const styles = StyleSheet.create({
     width: 150,
   },
   titulo: {
-    fontSize: 20,
+    // fontSize: 14,
   },
   containerPrecios: {
     flexDirection: 'row',
   },
   precios: {
     paddingEnd: 10,
-    fontSize: 15,
+    // fontSize: 15,
   },
 });
 

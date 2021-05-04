@@ -19,7 +19,7 @@ const App = () => {
   const LogoTitle2 = () => {
     return (
       <View style={styles.header}>
-        <Text style={styles.textHeader}>Ofertas</Text>
+        <Text style={styles.textHeader}>Aplicación</Text>
       </View>
     );
   };
